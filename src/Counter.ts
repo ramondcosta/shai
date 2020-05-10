@@ -9,6 +9,7 @@ export class Counter{
     initialDate : Date = new Date();
     description : string = "";
     timeSpan : number = 0;
+    wordsToSpeech: string = "";
 
     constructor(params: any) {
         Object.assign(this, params);

@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.tsc",
   "dependencies": {
+    "@types/node": "^13.13.5",
     "colors": "^1.4.0",
     "moment": "^2.25.3"
   },

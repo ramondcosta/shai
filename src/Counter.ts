@@ -10,6 +10,7 @@ export class Counter{
     description : string = "";
     timeSpan : number = 0;
     wordsToSpeech: string = "";
+    audioFileToPlay: string = "";
 
     constructor(params: any) {
         Object.assign(this, params);
